@@ -1,0 +1,9 @@
+pac pcf init -n <control name> -ns <namespace> -t field -fw react -npm
+
+Create Solution folder named Yr proj
+pac solution init --publisher-name Vitalii_Palochkin --publisher-prefix dev
+pac solution add-reference --path D:\Work_PowerApps\PCFControls\RadarReact
+msbuild /t:build /restore
+
+Optional unmanaged solution
+msbuild /p:configuration=release
