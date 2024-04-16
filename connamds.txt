@@ -7,3 +7,8 @@ msbuild /t:build /restore
 
 Optional unmanaged solution
 msbuild /p:configuration=release
+
+
+msbuild /t:build /restore
+msbuild /p:configuration=release
+
